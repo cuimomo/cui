@@ -1,0 +1,30 @@
+{
+  "name": "vue3-ccz",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.9.0",
+    "axios": "^1.6.7",
+    "element-plus": "^2.6.0",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persist": "^1.0.0",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "vite": "^5.0.11",
+    "vite-plugin-windicss": "^1.9.3",
+    "windicss": "^3.5.6"
+  }
+}
